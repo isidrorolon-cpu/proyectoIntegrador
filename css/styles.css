@@ -36,7 +36,8 @@ img {
     width: auto;
 }
 .buscador input {
-    width: 300px;
+    width: 280px;
+    height: 35px;
     padding: 10px;
 }
 .buscador button {
@@ -85,4 +86,55 @@ img {
 
 .footer-principal li {
     margin-left: 20px;
+}
+.grilla {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.carta {
+    width: 33%;
+    margin-bottom: 30px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.carta img {
+    object-fit: cover;
+    height: 100%;
+}
+.carta h3 {
+    font-family: "Oswald", sans-serif;
+    margin-top: 10px;
+}
+
+.descripcion {
+    color: gray;
+    font-size: 15px;
+}
+
+.precio {
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.mas-vendido h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.home h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.boton {
+    align-self: flex-start;
+    background-color: forestgreen;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
 }
