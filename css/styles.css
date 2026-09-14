@@ -112,12 +112,13 @@ img {
 .descripcion {
     color: gray;
     font-size: 15px;
+    height: 40px;
 }
-
 .precio {
     font-family: "Oswald", sans-serif;
     font-size: 25px;
     margin-top: 10px;
+    height: 40px;
 }
 .mas-vendido h2 {
     font-family: "Oswald", sans-serif;
@@ -130,7 +131,6 @@ img {
     font-size: 25px;
     margin-bottom: 20px;
 }
-
 .boton {
     align-self: flex-start;
     background-color: forestgreen;
