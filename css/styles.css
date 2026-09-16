@@ -148,15 +148,15 @@ img {
     padding: 100px;
 }
 input {
-    margin-bottom: 2vh;
+    margin-bottom: 5%;
     padding: 2%;
 }
 .divButton {
     display: flex;
     justify-content: center;
+    margin-bottom: 5%;
 }
 .formButton {
-    margin-bottom: 3%;
     background-color: forestgreen;
     border: 0;
     color: white;
@@ -164,5 +164,16 @@ input {
 }
 label {
     font-size: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 2%;
+}
+.divCheckbox {
+    display: flex;
+    align-items: center;
+}
+.inputCheckbox {
+    margin-bottom: 5%;
+    margin-right: 3%;
+}
+.labelCheckbox {
+    margin-bottom: 5%;
 }
