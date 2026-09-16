@@ -135,3 +135,35 @@ img {
     padding: 10px 15px;
     margin-top: 10px;
 }
+.div-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.148);
+    width: 60%;
+    padding: 100px;
+}
+input {
+    margin-bottom: 2vh;
+    padding: 2%;
+}
+.divButton {
+    display: flex;
+    justify-content: center;
+}
+.formButton {
+    margin-bottom: 2vh;
+    width: 25%;
+    background-color: forestgreen;
+    border: 0;
+    color: white;
+    padding: 10px 20px;
+}
+label {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
