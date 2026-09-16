@@ -33,7 +33,6 @@ img {
 }
 .logo img {
     height: 50px;
-    width: auto;
 }
 .buscador input {
     width: 280px;
@@ -101,7 +100,6 @@ img {
     flex-direction: column;
 }
 .carta img {
-    object-fit: cover;
     height: 100%;
 }
 .carta h3 {
@@ -124,7 +122,6 @@ img {
     font-family: "Oswald", sans-serif;
     font-size: 25px;
     margin-bottom: 20px;
-    margin-top: 20px;
 }
 .home h2 {
     font-family: "Oswald", sans-serif;
