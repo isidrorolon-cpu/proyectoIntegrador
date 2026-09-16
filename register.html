@@ -15,7 +15,7 @@
         <div class="contenedor">
             <a class="logo" href="./index.html"><img src="./img/logo.png" alt="Enganche"></a>
             <form class="buscador" action="./search-results.html">
-                <input type="text" value="">
+                <input type="text" value="" placeholder="Search...">
                 <button type="submit">Buscar</button>
             </form>
             <nav class="nav-principal">
@@ -50,8 +50,23 @@
                     </ul>
                 </nav>
             </section>
-            <div class="contenido">
-
+            <div class="contenido div-form">
+                <form class="form-Login-Register" action="./index.html" method="get">
+                    <label>Email:</label>
+                    <input type="email" name="mail" value="" placeholder="Escriba su email">
+                    <label>Contraseña:</label>
+                    <input type="password" name="pass" value="" placeholder="Escriba su contraseña">
+                    <label>Repetir contraseña:</label>
+                    <input type="password" name="pass" value="" placeholder="Vuelva a escribir su contraseña">
+                    <div class="divCheckbox">
+                        <input type="checkbox" name="terminos-y-condiciones" value="Aceptados">
+                        <label>Acepto términos y condiciones</label>
+                    </div>
+                    <div class="divButton">
+                        <button class="formButton" type="submit">Registrarme</button>
+                    </div>
+                    <a href="./login.html">Ya tengo una cuenta</a>
+                </form>
             </div>
         </div>
     </main>

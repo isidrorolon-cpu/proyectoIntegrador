@@ -140,7 +140,7 @@ img {
     align-items: center;
     justify-content: center;
 }
-.formLogin {
+.form-Login-Register {
     display: flex;
     flex-direction: column;
     background-color: rgba(128, 128, 128, 0.148);
@@ -156,8 +156,7 @@ input {
     justify-content: center;
 }
 .formButton {
-    margin-bottom: 2vh;
-    width: 25%;
+    margin-bottom: 3%;
     background-color: forestgreen;
     border: 0;
     color: white;
