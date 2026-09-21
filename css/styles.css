@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+main {
+    width: 100%;
+}
 body {
     font-family: "Open Sans", sans-serif;
     background-color: white;
@@ -10,6 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 10vw 0 10vw;
 }
 li {
     list-style: none;
@@ -23,16 +27,23 @@ img {
     width: 100%;
 }
 .contenedor {
-    width: 1180px;
+    width: 100%;
+    display: flex;
+}
+.header-principal {
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
 .header-principal .contenedor {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+    width: 100%;
 }
 .logo img {
-    height: 50px;
+    height: 7vh;
 }
 .buscador input {
     width: 280px;
@@ -54,12 +65,13 @@ img {
 .layout {
     display: flex;
     margin-top: 30px;
+    width: 100%;
 }
 .categorias {
     width: 20%;
 }
 .contenido {
-    width: 80%;
+    width: 100%;
     padding-left: 30px;
 }
 .categorias h2 {
@@ -92,7 +104,8 @@ img {
     justify-content: space-between;
 }
 .carta {
-    width: 33%;
+    width: 288px;
+    height: 467.500px;
     margin-bottom: 30px;
     border: 1px solid lightgray;
     padding: 10px;
