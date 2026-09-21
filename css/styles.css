@@ -190,3 +190,15 @@ label {
 .labelCheckbox {
     margin-bottom: 5%;
 }
+.producto-principal {
+    display: flex;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+.producto-imagen {
+    width: 50%;
+}
+.producto-info {
+    width: 50%;
+    padding-left: 30px;
+}
