@@ -228,3 +228,29 @@ label {
     padding: 8px 12px;
     margin-right: 10px;
 }
+.reviews {
+    margin-top: 40px;
+}
+.reviews h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.review {
+    width: 100%;
+    border: 1px solid lightgray;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.review h3 {
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 10px;
+}
+.review p {
+    margin-bottom: 8px;
+}
+.pagina-categoria h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
