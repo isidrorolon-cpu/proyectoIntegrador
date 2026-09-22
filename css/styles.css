@@ -113,7 +113,7 @@ img {
     flex-direction: column;
 }
 .carta img {
-    height: 100%;
+    height: 270px;
 }
 .carta h3 {
     font-family: "Oswald", sans-serif;
