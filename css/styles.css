@@ -90,6 +90,9 @@ img {
     margin-top: 50px;
     border-top: 1px solid lightgray;
 }
+.footer-principal .contenedor ul {
+margin-left: 30px;
+}
 
 .footer-principal ul {
     display: flex;
