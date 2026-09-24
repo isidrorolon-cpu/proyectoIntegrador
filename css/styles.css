@@ -43,7 +43,7 @@ img {
     width: 100%;
 }
 .logo img {
-    height: 7vh;
+    height: 65px;
 }
 .buscador input {
     width: 280px;
@@ -71,8 +71,8 @@ img {
     width: 20%;
 }
 .contenido {
-    width: 100%;
-    margin-left: 30px;
+    width: 80%;
+    padding-left: 30px;
 }
 .categorias h2 {
     font-family: "Oswald", sans-serif;
@@ -324,4 +324,77 @@ label {
     font-family: "Oswald", sans-serif;
     font-size: 25px;
     margin-bottom: 20px;
+}
+@media (max-width: 320px) {
+
+    body {
+        margin: 0 5vw 0 5vw;
+    }
+    .header-principal .contenedor {
+        flex-direction: column;
+    }
+    .buscador {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .layout {
+        flex-direction: column;
+    }
+    .categorias {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .contenido {
+        width: 100%;
+        padding-left: 0;
+    }
+    .producto-principal {
+        flex-direction: column;
+    }
+    .producto-imagen {
+        width: 100%;
+    }
+    .producto-info {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+    .tags-producto {
+        flex-wrap: wrap;
+    }
+    .tags-producto li {
+        margin-bottom: 10px;
+    }
+    .carta {
+        width: 100%;
+        height: auto;
+    }
+    .carta img {
+        height: auto;
+    }
+    .buscador input {
+    width: 200px;
+    height: 35px;
+    padding: 10px;
+    }
+    .footer-principal .contenedor{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;  
+    }
+    .footer-principal .contenedor p{
+       text-align: center;
+       margin-bottom: 20px;
+    }
+    .footer-principal .contenedor ul{
+        margin: 0%;  
+    }
+    .footer-principal .contenedor ul li{
+        margin: 0%;
+        text-align: center;
+    }
+    .form-Login-Register { 
+        width: 100%; 
+        padding: 20px 
+    }
 }
