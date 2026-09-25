@@ -388,4 +388,7 @@ label {
         width: 100%; 
         padding: 20px 
     }
+    .logoLogin {
+        width: 200px;
+    }
 }
