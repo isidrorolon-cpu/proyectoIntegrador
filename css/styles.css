@@ -49,6 +49,7 @@ img {
     width: 280px;
     height: 35px;
     padding: 10px;
+    border: 1px solid #ccc;
 }
 .buscador button {
     padding: 10px 20px;
@@ -160,7 +161,6 @@ margin-left: 30px;
     padding: 10px 15px;
     margin-top: 10px;
 }
-
 .sectionLoginRegister {
     display: flex;
     flex-direction: column;
@@ -168,7 +168,6 @@ margin-left: 30px;
     width: 100%;
     padding: 40px 0;
 }
-
 .tituloLoginRegister {
     display: flex;
     flex-direction: column;
@@ -180,21 +179,17 @@ margin-left: 30px;
     max-width: 90%;
     padding: 25px 20px;
 }
-
 .tituloLoginRegister h1 {
     margin: 0;
 }
-
 .logoLogin {
     width: 350px;
     margin-bottom: 5px;
 }
-
 .tituloLoginRegister h4 {
     margin-top: 5px;
     font-weight: normal;
 }
-
 .div-form {
     display: flex;
     align-items: center;
@@ -202,7 +197,6 @@ margin-left: 30px;
     width: 620px;
     max-width: 90%;
 }
-
 .form-Login-Register {
     display: flex;
     flex-direction: column;
@@ -210,26 +204,22 @@ margin-left: 30px;
     width: 100%;
     padding: 55px 55px;
 }
-
 label {
     font-size: 14px;
     margin-bottom: 6px;
     color: #333;
 }
-
 .form-Login-Register input {
     margin-bottom: 29px;
     padding: 10px;
     border: 1px solid #ccc;
     font-size: 14px;
 }
-
 .divButton {
     display: flex;
     justify-content: center;
     margin-bottom: 29px;
 }
-
 .formButton {
     width: 100%;
     background-color: forestgreen;
@@ -238,36 +228,29 @@ label {
     padding: 10px 20px;
     font-size: 15px;
 }
-
 .formButton:hover {
     background-color: #2e6b2e;
 }
-
 .linkLoginRegister {
     text-align: center;
     font-size: 14px;
 }
-
 .linkLoginRegister a {
     color: forestgreen;
 }
-
 .divCheckbox {
     display: flex;
     align-items: center;
     margin-bottom: 29px;
 }
-
 .form-Login-Register .inputCheckbox {
     margin-right: 8px;
     margin-bottom: 0px;
 }
-
 .labelCheckbox {
     font-size: 14px;
     margin-bottom: 0px;
 }
-
 .producto-principal {
     display: flex;
     border: 1px solid lightgray;
@@ -383,6 +366,7 @@ label {
     width: 200px;
     height: 35px;
     padding: 10px;
+    border-radius: 0;
     }
     .footer-principal .contenedor{
         width: 100%;
