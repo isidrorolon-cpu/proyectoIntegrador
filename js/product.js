@@ -28,6 +28,12 @@ fetch('https://dummyjson.com/products/' + idProducto)
     categoria.href = './category.html?categoria=' + data.category;
     stock.innerText = 'Stock: ' + data.stock + ' unidades';
 
+    if(data.brand == undefined) {
+        marca.innerText = "Marca: sin marca";
+    } else {
+        marca.innerText = "Marca: " + data.brand;
+    }
+
 })
 .catch(function(error) {
     console.log('Error: ' + error);
