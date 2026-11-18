@@ -34,6 +34,12 @@ fetch('https://dummyjson.com/products/' + idProducto)
         marca.innerText = "Marca: " + data.brand;
     }
 
+    let tags = "";
+    for (let i = 0; i < data.tags.length && i < 3; i++) {
+        tags += `<li>${data.tags[i]}</li>`;
+    }
+    listaTags.innerHTML = tags;
+
 })
 .catch(function(error) {
     console.log('Error: ' + error);
