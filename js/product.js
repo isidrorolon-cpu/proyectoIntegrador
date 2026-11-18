@@ -18,6 +18,16 @@ fetch('https://dummyjson.com/products/' + idProducto)
     let listaTags = document.querySelector('.tags-producto');
     let listaReviews = document.querySelector('.lista-reviews');
 
+    imagen.src = data.thumbnail;
+    imagen.alt = data.title;
+    nombre.innerText = data.title;
+    marca.innerText = 'Marca: ' + data.brand;
+    descripcion.innerText = 'Descripción: ' + data.description;
+    precio.innerText = '$' + data.price;
+    categoria.innerText = data.category;
+    categoria.href = './category.html?categoria=' + data.category;
+    stock.innerText = 'Stock: ' + data.stock + ' unidades';
+
 })
 .catch(function(error) {
     console.log('Error: ' + error);
