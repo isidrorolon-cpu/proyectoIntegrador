@@ -40,6 +40,19 @@ fetch('https://dummyjson.com/products/' + idProducto)
     }
     listaTags.innerHTML = tags;
 
+    let reviews = "";
+    for (let i = 0; i < data.reviews.length; i++) {
+        reviews += `
+         <article class="review">
+          <h3>${data.reviews[i].reviewerName}</h3>
+          <p>Rating: ${data.reviews[i].rating} / 5</p>
+          <p>${data.reviews[i].comment}</p>
+          <p>Fecha: ${data.reviews[i].date}</p>
+         </article>
+         `;
+    }
+    listaReviews.innerHTML = reviews;
+
 })
 .catch(function(error) {
     console.log('Error: ' + error);
