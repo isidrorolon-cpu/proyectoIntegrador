@@ -21,7 +21,6 @@ fetch('https://dummyjson.com/products/' + idProducto)
     imagen.src = data.thumbnail;
     imagen.alt = data.title;
     nombre.innerText = data.title;
-    marca.innerText = 'Marca: ' + data.brand;
     descripcion.innerText = 'Descripción: ' + data.description;
     precio.innerText = '$' + data.price;
     categoria.innerText = data.category;
