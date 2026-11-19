@@ -19,12 +19,10 @@ fetch('https://dummyjson.com/products/' + idProducto)
     let listaReviews = document.querySelector('.lista-reviews');
 
     imagen.src = data.thumbnail;
-    imagen.alt = data.title;
     nombre.innerText = data.title;
     descripcion.innerText = 'Descripción: ' + data.description;
     precio.innerText = '$' + data.price;
-    categoria.innerText = data.category;
-    categoria.href = './category.html?categoria=' + data.category;
+    categoria.innerHTML = `Categoría: <a href="./category.html?categoria=${data.category}">${data.category}</a>`;
     stock.innerText = 'Stock: ' + data.stock + ' unidades';
 
     if(data.brand == undefined) {
@@ -34,8 +32,10 @@ fetch('https://dummyjson.com/products/' + idProducto)
     }
 
     let tags = "";
-    for (let i = 0; i < data.tags.length && i < 3; i++) {
-        tags += `<li>${data.tags[i]}</li>`;
+    for (let i = 0; i < data.tags.length; i++) {
+        if (i < 3) {
+            tags += `<li>${data.tags[i]}</li>`;
+        }
     }
     listaTags.innerHTML = tags;
 
