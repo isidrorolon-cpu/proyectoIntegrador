@@ -29,3 +29,33 @@ fetch("https://dummyjson.com/products/category/" + categoriaUno)
 .catch(function(error) {
     console.log("Error: " + error);
 })
+
+
+fetch("https://dummyjson.com/products/category/" + categoriaDos)
+.then(function(response) {
+    return response.json();
+})
+.then(function(data) {
+
+    let seccionDos = document.querySelector(".grilla-dos");
+    let productos = data.products;
+    let cartas = "";
+
+    for (let i = 0; i < productos.length; i++) {
+        cartas += `
+        <article class="carta">
+            <img src="${productos[i].thumbnail}" alt="${productos[i].title}">
+            <h3>${productos[i].title}</h3>
+            <p class="descripcion">${productos[i].description}</p>
+            <p class="precio">$${productos[i].price}</p>
+            <a href="./product.html?id=${productos[i].id}" class="boton">Ver detalle</a>
+        </article>
+        `;
+    }
+
+    seccionDos.innerHTML = cartas;
+
+})
+.catch(function(error) {
+    console.log("Error: " + error);
+})
