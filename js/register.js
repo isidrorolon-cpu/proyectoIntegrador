@@ -6,7 +6,7 @@ let errorEmail = document.querySelector(".error-email");
 let errorPassword = document.querySelector(".error-password");
 let errorRepetir = document.querySelector(".error-repetir");
 
-formLogin.addEventListener("submit", function(event) {
+formRegistro.addEventListener("submit", function(event) {
     event.preventDefault();
 
     let email = campoEmail.value;
