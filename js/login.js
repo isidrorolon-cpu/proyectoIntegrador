@@ -27,7 +27,7 @@ formLogin.addEventListener("submit", function(event) {
         hayErrores = true;
     }
 
-    if (hayErrores == false) {
+    if (hayErrores === false) {
         localStorage.setItem("email", campoEmail.value);
         this.submit();
     }
